@@ -1,13 +1,11 @@
-const person ={
-    firstName : "Rima",
-    lastName : "Sultana",
-    language : "en",
-    set lang(value){
-         this.language;
+const person = {
+    firstName: "John",
+    lastName: "Doe",
+    get fullName() {
+      return this.firstName + " " + this.lastName;
     }
-};
-
-person.lang;
+  };
 
 
-console.log(person.language);
+
+console.log(person.fullName);
