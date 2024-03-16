@@ -2,9 +2,12 @@ const person ={
     firstName : "Rima",
     lastName : "Sultana",
     language : "en",
-    get lang(){
-        return this.language;
+    set lang(value){
+         this.language;
     }
 };
+
+person.lang;
+
 
 console.log(person.language);
